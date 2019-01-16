@@ -32,6 +32,10 @@
         <activity
             android:name=".tests.KeyTest"
             android:screenOrientation="landscape" />
+        <activity
+            android:name=".tests.AssetsTest"
+            android:screenOrientation="landscape" />
+        <activity android:name=".tests.ExternalStorageTest" android:screenOrientation="landscape" />
     </application>
 
 </manifest>
