@@ -17,7 +17,7 @@ public class BasicStarter extends ListActivity {
             "AccelerometerTest",
             "tests.AssetsTest",
             "tests.ExternalStorageTest",
-            "SoundPoolTest",
+            "tests.SoundPoolTest",
             "MediaPlayerTest",
             "FullScreenTest",
             "RenderViewTest",

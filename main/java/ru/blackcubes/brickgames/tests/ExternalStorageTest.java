@@ -2,8 +2,10 @@ package ru.blackcubes.brickgames.tests;
 
 import android.Manifest;
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.annotation.RequiresApi;
 import android.widget.TextView;
 
 import java.io.BufferedReader;
@@ -15,6 +17,7 @@ import java.io.IOException;
 
 public class ExternalStorageTest extends Activity {
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
